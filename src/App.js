@@ -27,8 +27,6 @@ function App() {
           isAuthenticated: true
         }
       })
-    } else {
-      // console.log(local)
     }
   }, [popover.toggle || modify.new_draft || modify.edit_draft[0] || settings.toggle])
 

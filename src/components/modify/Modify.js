@@ -157,7 +157,6 @@ const Modify = () => {
     handleProgressRing(0)
     if (modify.new_draft || modify.edit_draft[0]) {
       body.style.overflow = 'hidden'
-      console.log(window.innerWidth)
       if (window.innerWidth >= 769) {
         body.style.overflow = ''
         inputRef.current.focus()

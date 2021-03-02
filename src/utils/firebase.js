@@ -1,13 +1,13 @@
 import firebase from 'firebase'
 
 const config = {
-  apiKey: "AIzaSyDogAtK4hVuw-_uiI4D5K0NWZc9j8gZUzU",
-  authDomain: "speek2-5f7d5.firebaseapp.com",
-  databaseURL: "https://speek2-5f7d5.firebaseio.com",
-  projectId: "speek2-5f7d5",
-  storageBucket: "speek2-5f7d5.appspot.com",
-  messagingSenderId: "797679846776",
-  appId: "1:797679846776:web:c92fd8300ccfa63746b48d"
+  apiKey: "AIzaSyBzsPE1p7qXMw-TDkn_tH5TSek21ISSxds",
+  authDomain: "twotter-e6df5.firebaseapp.com",
+  databaseURL: "https://twotter-e6df5.firebaseio.com",
+  projectId: "twotter-e6df5",
+  storageBucket: "twotter-e6df5.appspot.com",
+  messagingSenderId: "7670825799",
+  appId: "1:7670825799:web:9a61246e75c87c25a58262"
 }
 
 firebase.initializeApp(config)

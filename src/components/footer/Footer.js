@@ -1,10 +1,9 @@
 import React from "react"
 
-const Footer = ({ auth }) => {
-  console.log(auth)
+const Footer = () => {
   return (
     <div className="text footer__container">
-      <p>&copy; Drafty 2020</p>
+      <p>&copy; Drafty {new Date().getFullYear()}</p>
     </div>
   )
 }

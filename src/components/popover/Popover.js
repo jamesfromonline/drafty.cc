@@ -71,7 +71,6 @@ const Popover = props => {
 
     const handleDeleteAccount = async () => {
         const user = firebase.auth().currentUser
-        console.log(`deleting ${user.uid}`)
 
         try {
             firebase
